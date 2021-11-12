@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Auth::routes(['verify' => true]);
+Auth::routes();
 Route::get('/', [App\Http\Controllers\Web\HomeController::class, 'index'])->name('web.index');
 
 /*Exemplo de Mailabel */
