@@ -1,6 +1,6 @@
-# Laravel 8 All
+# TCC Setup
 
-## Comenzando 🚀
+## Inicializando 🚀
 
 _Sigue las siguientes instrucciones para clonar este repositorio en tu máquina local y poder trabajar desde el principio con la plantilla AdminLTE, sistema de Roles y Permisos con Spatie, Envio de Email con Mailable, Verificación de Email y API con JWT Token en Laravel 8 con Livewire._
 
