@@ -9,6 +9,21 @@ class Produto extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+		'codigo',
+        'descricao',
+        'estado',
+        'condicao',
+        'propriedade',
+        'quantidade',
+        'local_origem',
+        'local_estoque',
+        'custo',
+        'status',
+        'fornecedor'
+    ];
+
+
     public function picklist(){
         return $this->hasMany(Picklist::class);
     }
