@@ -40,7 +40,7 @@
 @section('content')
 <div class="card card-primary">
     <div class="card-header">
-        <h3 class="card-title">Cadastro Picklists</h3>
+        <h3 class="card-title">Picklist</h3>
     </div>
     <div class="card-body">
         <div class="container-fluid">
@@ -58,7 +58,7 @@
                     </div>
                     <div class="col-md-3">
                         <label for="">Quantidade</label>
-                        <input type="number" name="quantidade" class="form-control" placeholder="Ingresse Quantidade" value="{{old('quantidade')}}"></input>
+                        <input type="number" name="quantidade" class="form-control" placeholder="Entre a Quantidade" value="{{old('quantidade')}}"></input>
                     </div>
 
                     <div class="col-md-3">
@@ -75,7 +75,7 @@
                     </div>
                     <div class="mr-1 ml-2 mt-0">
                         <label for=""> </label>
-                        <button type="submit" class="form-control btn btn-primary">Cadastrar</button>
+                        <button type="submit" class="form-control btn btn-primary">Adicionar</button>
                     </div>
                     <div class="mr-1 mt-0">
                         <label for=""> </label>
