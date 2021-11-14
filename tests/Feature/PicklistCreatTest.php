@@ -3,6 +3,7 @@
 namespace Tests\Feature;
 
 use App\Models\Produto;
+use App\Models\Picklist;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
@@ -18,7 +19,7 @@ class ProductCreateTest extends TestCase
     public function test_a_product_can_be_created()
     {
         //Cria o Produto
-        Produto::create([
+        Pickklist::create([
             'codigo' => 'AABBCCDD',
             'descricao' => 'Table',
             'estado' => 'New',
