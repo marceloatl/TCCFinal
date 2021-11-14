@@ -22,7 +22,7 @@
 @section('content_header')
 <div class="row">
     <div class="col-md-6">
-        <h1>Picklists</h1>
+        <h1>Picklist</h1>
         
         @if(Session::has('success'))
             <div class="alert alert-green" role="alert">
@@ -33,7 +33,7 @@
     </div>
     <div class="col-md-6 text-right pt-2">
         <a href="{{route('picklists.create')}}">
-            <button class="btn btn-success">Cadastrar Picklist</button>
+            <button class="btn btn-success">Criar Picklist</button>
         </a>
     </div>
 </div>
