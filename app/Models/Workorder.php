@@ -9,6 +9,13 @@ class Workorder extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+		'produto_id',
+        'quantidade',
+        'fornecedor',
+        'bill',
+        'observacoes'
+    ];
     public function produto(){
         return $this->belongsTo(Produto::class);
     }

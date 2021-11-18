@@ -9,6 +9,14 @@ class Picklist extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+		'produto_id',
+        'quantidade',
+        'cliente',
+        'bill',
+        'observacoes'
+    ];
+
     public function produto(){
         return $this->belongsTo(Produto::class);
     }

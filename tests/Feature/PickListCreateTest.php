@@ -11,19 +11,19 @@ use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
 
-class WorkorderCreateTest extends TestCase
+class PickListCreatetest extends TestCase
 {
     /**
      * A basic feature test example.
      *
      * @return void
      */
-    public function test_a_workorder_can_be_created()
+    public function test_a_picklist_can_be_created()
     {
-        Workorder::create([
+        Picklist::create([
             'produto_id' => 1,
             'quantidade' => '50',
-            'fornecedor' => 'New-Fornecedor',
+            'cliente' => 'New-Cliente',
             'bill' => 'Bill',
             'observacoes' => 'Observacoes 1',
         ]);
