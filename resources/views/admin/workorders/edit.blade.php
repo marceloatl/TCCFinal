@@ -46,7 +46,7 @@
 @section('content')
 <div class="card card-primary">
     <div class="card-header">
-        <h3 class="card-title">CEdit Workorders</h3>
+        <h3 class="card-title">Edit Workorders</h3>
     </div>
     <div class="card-body">
         <div class="container-fluid">

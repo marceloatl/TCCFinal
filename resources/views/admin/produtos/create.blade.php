@@ -12,7 +12,7 @@
 <div class="row">
     <div class="col-md-6">
         <h1>Cadastro Produto</h1>
-        <span>Prueba de Texto</span>
+        
         @if ($errors->any())
             <div class="alert alert-red" role="alert">
                 <ul>

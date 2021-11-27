@@ -31,7 +31,7 @@
 @section('content')
 <div class="card card-primary">
     <div class="card-header">
-        <h3 class="card-title">Listado de Usuarios</h3>
+        <h3 class="card-title">Lista de Usuarios</h3>
     </div>
     <div class="card-body">
         <div class="container-fluid">
@@ -40,8 +40,8 @@
                     <table id="tabela" class="table table-striped table-bordered" style="width:100%">
                         <thead>
                             <tr>
-                                <th>Nome de Usuarios</th>
-                                <th>Email Usuario</th>
+                                <th>Nome</th>
+                                <th>Email</th>
                                 <th>Ações</th>
                             </tr>
                         </thead>
