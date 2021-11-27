@@ -63,15 +63,15 @@
 
                     <div class="col-md-3">
                         <label for="">Bill</label>
-                        <input type="text" name="bill" class="form-control" placeholder="Ingresse Bill" value="{{old('bill')}}"></input>
+                        <input type="text" name="bill" class="form-control" placeholder="Insira Bill" value="{{old('bill')}}"></input>
                     </div>
                     <div class="col-md-12">
                         <label for="">Fornecedor</label>
-                        <input type="text" name="fornecedor" class="form-control" placeholder="Ingresse fornecedor" value="{{old('fornecedor')}}"></input>
+                        <input type="text" name="fornecedor" class="form-control" placeholder="Insira fornecedor" value="{{old('fornecedor')}}"></input>
                     </div>
                     <div class="col-md-12">
                         <label for="">Observações</label>
-                        <input type="text" name="observacoes" class="form-control" placeholder="Ingresse observacoes" value="{{old('observacoes')}}"></input>
+                        <input type="text" name="observacoes" class="form-control" placeholder="Insira observacoes" value="{{old('observacoes')}}"></input>
                     </div>
                     <div class="mr-1 ml-2 mt-0">
                         <label for=""> </label>

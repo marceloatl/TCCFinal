@@ -65,20 +65,20 @@
                     </div>
                     <div class="col-md-3">
                         <label for="">Quantidade</label>
-                        <input readonly type="number" name="quantidade" class="form-control" placeholder="Ingresse Quantidade" value="{{old('quantidade',$picklist->quantidade)}}"></input>
+                        <input readonly type="number" name="quantidade" class="form-control" placeholder="Insira Quantidade" value="{{old('quantidade',$picklist->quantidade)}}"></input>
                     </div>
 
                     <div class="col-md-3">
                         <label for="">Bill</label>
-                        <input type="text" name="bill" class="form-control" placeholder="Ingresse Bill" value="{{old('bill',$picklist->bill)}}"></input>
+                        <input type="text" name="bill" class="form-control" placeholder="Insira Bill" value="{{old('bill',$picklist->bill)}}"></input>
                     </div>
                     <div class="col-md-12">
                         <label for="">Cliente</label>
-                        <input type="text" name="cliente" class="form-control" placeholder="Ingresse cliente" value="{{old('cliente',$picklist->cliente)}}"></input>
+                        <input type="text" name="cliente" class="form-control" placeholder="Insira cliente" value="{{old('cliente',$picklist->cliente)}}"></input>
                     </div>
                     <div class="col-md-12">
                         <label for="">Observações</label>
-                        <input type="text" name="observacoes" class="form-control" placeholder="Ingresse observacoes" value="{{old('observacoes',$picklist->observacoes)}}"></input>
+                        <input type="text" name="observacoes" class="form-control" placeholder="Insira observacoes" value="{{old('observacoes',$picklist->observacoes)}}"></input>
                     </div>
                     <div class="mr-1 ml-2 mt-0">
                         <label for=""> </label>

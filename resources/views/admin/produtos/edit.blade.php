@@ -50,11 +50,11 @@
                 <div class="row">
                     <div class="col-md-3">
                         <label for="">Código</label>
-                        <input type="text" name="codigo" class="form-control" placeholder="Ingresse Código" value="{{old('codigo',$produto->codigo)}}"></input>
+                        <input type="text" name="codigo" class="form-control" placeholder="Insira Código" value="{{old('codigo',$produto->codigo)}}"></input>
                     </div>
                     <div class="col-md-9">
                         <label for="">Descrição do Produto</label>
-                        <input type="text" name="descricao" class="form-control" placeholder="Ingresse Descrição" value="{{old('descricao',$produto->descricao)}}"></input>
+                        <input type="text" name="descricao" class="form-control" placeholder="Insira Descrição" value="{{old('descricao',$produto->descricao)}}"></input>
                     </div>
                     <div class="col-md-3">
                         <label for="">Estado do Produto</label>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="col-md-6">
                         <label for="">Condiçao</label>
-                        <input type="text" name="condicao" class="form-control" placeholder="Ingresse Condição" value="{{old('condicao',$produto->condicao)}}"></input>
+                        <input type="text" name="condicao" class="form-control" placeholder="Insira Condição" value="{{old('condicao',$produto->condicao)}}"></input>
                     </div>
                     <div class="col-md-3">
                         <label for="">Propriedade</label>
@@ -78,19 +78,19 @@
                     </div>
                     <div class="col-md-2">
                         <label for="">Quantidade</label>
-                        <input readonly type="number" name="quantidade" class="form-control" placeholder="Ingresse Quantidade" value="{{old('quantidade',$produto->quantidade)}}"></input>
+                        <input readonly type="number" name="quantidade" class="form-control" placeholder="Insira Quantidade" value="{{old('quantidade',$produto->quantidade)}}"></input>
                     </div>
                     <div class="col-md-3">
                         <label for="">Local Origem</label>
-                        <input type="text" name="local_origem" class="form-control" placeholder="Ingresse Local de Origem" value="{{old('local_origem',$produto->local_origem)}}"></input>
+                        <input type="text" name="local_origem" class="form-control" placeholder="Insira Local de Origem" value="{{old('local_origem',$produto->local_origem)}}"></input>
                     </div>
                     <div class="col-md-3">
                         <label for="">Local Estoque</label>
-                        <input type="text" name="local_estoque" class="form-control" placeholder="Ingresse Local de Estoque" value="{{old('local_estoque',$produto->local_estoque)}}"></input>
+                        <input type="text" name="local_estoque" class="form-control" placeholder="Insira Local de Estoque" value="{{old('local_estoque',$produto->local_estoque)}}"></input>
                     </div>
                     <div class="col-md-2">
                         <label for="">Custo</label>
-                        <input type="number" name="custo" class="form-control" placeholder="Ingresse Custo" value="{{old('custo',$produto->custo)}}"></input>
+                        <input type="number" name="custo" class="form-control" placeholder="Insira Custo" value="{{old('custo',$produto->custo)}}"></input>
                     </div>
                     <div class="col-md-2">
                         <label for="">Status</label>
@@ -102,7 +102,7 @@
                     </div>
                     <div class="col-md-12">
                         <label for="">Fornecedor</label>
-                        <input type="text" name="fornecedor" class="form-control" placeholder="Ingresse Fornecedor" value="{{old('fornecedor',$produto->fornecedor)}}"></input>
+                        <input type="text" name="fornecedor" class="form-control" placeholder="Insira Fornecedor" value="{{old('fornecedor',$produto->fornecedor)}}"></input>
                     </div>
                     <div class="mr-1 ml-2 mt-0">
                         <label for=""> </label>
