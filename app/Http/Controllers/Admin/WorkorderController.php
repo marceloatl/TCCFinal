@@ -100,7 +100,7 @@ class WorkorderController extends Controller
         Workorder::where('id',$id)->delete();
 
         return redirect()->route('workorders.index')->with(
-            'success','workorder Apagado com Successo'
+            'success','workorder Apagada com Successo'
         );
     }
 }

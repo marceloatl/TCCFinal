@@ -231,7 +231,7 @@ return [
         ],
 
         [
-            'text' => 'Product List',
+            'text' => 'Lista de Produtos',
             'url'  => '/admin',
             'icon' => 'far fa-list-alt',
         ],

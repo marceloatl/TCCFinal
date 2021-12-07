@@ -54,6 +54,7 @@
                                 <th>Quantidade</th>
                                 <th>Local de Origem</th>
                                 <th>Propriedade</th>
+                                <th>Condição</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -64,6 +65,7 @@
                                 <td>{{$produto->quantidade}}</td>
                                 <td>{{$produto->local_origem}}</td>
                                 <td>{{$produto->propriedade}}</td>
+                                <td>{{$produto->condicao}}</td>
                                 <!-- <td style="width:12%;">
                                     <a href="{{route('produtos.show', $produto->id)}}">
                                         <button class="btn btn-sm btn-info btn-show"><i class="fas fa-eye"></i></button>
